@@ -14,8 +14,7 @@ int evalRPN(vector<string>& tokens) {
         }
     }
 int main(){
-
-
-
+    vector<string>token={"2","1","+","3","*"};
+    cout<<evalRPN(token);
     return 0;
 }
